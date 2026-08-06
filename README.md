@@ -6,7 +6,7 @@ fixed local dataset, with automatic escalation to a human agent when needed.
 
 This README is aimed at getting another developer from zero to a working test
 session as fast as possible. For an architectural overview, see
-[`repo_description.md`](./repo_description.md).
+[`Solution.md`](./Solution.md).
 
 ## 1. Prerequisites
 
@@ -104,4 +104,4 @@ data/orders.json          Fixed test dataset (customers + orders)
 data/policy.md             Full Trendly policy doc (source of truth for the agent)
 ```
 
-See [`repo_description.md`](./repo_description.md) for more on how the pieces fit together.
+See [`Solution.md`](./Solution.md) for more on how the pieces fit together.
