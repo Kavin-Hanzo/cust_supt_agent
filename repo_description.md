@@ -7,7 +7,7 @@ sensitive or unresolved cases.
 
 ## Stack
 
-- **Model:** Gemini 3.6 Flash (`gemini-3.6-flash`) via the `google-genai` SDK, using automatic function calling
+- **Model:** Gemini 3.6 Flash (`gemini-3.6-flash`) via the `google-genai` SDK, using automatic function calling, once the free quota or rate limit is reached wait until for reset else user will receive error.
 - **Frontends:** Streamlit chat UI (`app.py`) and a CLI (`main.py`)
 - **Data:** In-memory, loaded from local JSON/Markdown — no database
 
